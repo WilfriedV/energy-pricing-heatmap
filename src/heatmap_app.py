@@ -9,7 +9,7 @@ import matplotlib.colors as mcolors
 import streamlit as st
 
 # --- CONFIGURATIE ---
-TOKEN = "402f3440-9c49-4469-9ab2-eb35e0808626"
+TOKEN = ""
 DOMAIN = "10YBE----------2"
 
 # --- FUNCTIES ---
@@ -111,5 +111,6 @@ else:
     ax.set_title(f"Energie Heatmap: {target_date}")
     ax.invert_yaxis()
     ax.grid(axis='x', linestyle='--', alpha=0.7)
+
 
     st.pyplot(fig)
