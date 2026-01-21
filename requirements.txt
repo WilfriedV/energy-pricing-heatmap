@@ -1,0 +1,7 @@
+lxml
+Streamlit
+Pandas
+Matplotlib
+Numpy
+Requests
+python-dateutil
